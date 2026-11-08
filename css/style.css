@@ -618,26 +618,3 @@ input:focus-visible {
 }
 
 
-/* =========================================
-   KEEP CHAT INPUT AT BOTTOM
-========================================= */
-
-.chat-input-wrapper {
-    position: absolute !important;
-    bottom: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    padding-bottom: 10px !important;
-    z-index: 20;
-}
-
-/* Keyboard ဖွင့်ချိန် Input ကို မလိုက်တက်စေရန် */
-.chat-input-box {
-    position: relative;
-}
-
-/* Chat message တွေ Input အောက်မှာ မပျောက်စေရန် */
-.messages-container {
-    padding-bottom: 75px !important;
-}
-
