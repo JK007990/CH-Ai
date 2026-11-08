@@ -64,8 +64,8 @@ const characters = [
         name: "Han Ti",
         defaultRole: "sub", // မူလက Sub / Sex Chat & Slave
         description: "Passionate, wild, and entirely devoted to your pleasure.",
-        avatar: "images/HanTi.jpg",
-        background: "images/HanTi.jpg"
+        avatar: "images/HanTI.jpg",
+        background: "images/HanTI.jpg"
     },
     {
         id: "Thae Su Nyein",
