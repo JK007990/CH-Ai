@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CH . Ai App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="app-container">
+
+    <!-- Screen 1: Home View -->
+    <div id="screen-home" class="screen active">
+      <div class="top-bar">
+        <div class="logo-title">CH . Ai</div>
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="searchInput" placeholder="ရှာဖွေရန်..." onkeyup="filterCharacters()">
+        </div>
+      </div>
+
+      <div class="character-grid" id="characterGrid">
+        <!-- JS မှ ဇာတ်ကောင်များ ထည့်ပေးမည် -->
+      </div>
+    </div>
+
+    <!-- Screen 2: Recent / Chat List View -->
+    <div id="screen-chatlist" class="screen">
+      <div class="top-bar">
+        <div class="logo-title">CH . Ai</div>
+      </div>
+      <div class="character-grid" id="recentGrid">
+        <!-- JS မှ လတ်တလော ပြောထားသည်များ ထည့်ပေးမည် -->
+      </div>
+    </div>
+
+    <!-- Screen 3: Settings View -->
+    <div id="screen-settings" class="screen">
+      <div class="top-bar">
+        <div class="logo-title">CH . Ai</div>
+      </div>
+      <div class="settings-card">
+        <h3 style="margin-top:0;">ဆဲတ္တင်း</h3>
+        <p style="color:#666; font-size:14px; margin-bottom: 20px;">အက်ပ် ဆက်တင်များကို ပြင်ဆင်ပါ။</p>
+        
+        <div class="setting-item">
+          <span>Dark Mode</span>
+          <input type="checkbox" id="darkModeToggle" onchange="toggleDarkMode()">
+        </div>
+        <div class="setting-item">
+          <span>အသံစနစ်</span>
+          <input type="checkbox" checked>
+        </div>
+        <div class="setting-item">
+          <span>ပြောလက်စ မှတ်တမ်း သိမ်းမည်</span>
+          <input type="checkbox" checked>
+        </div>
+        
+        <button class="clear-btn" onclick="clearHistory()">မှတ်တမ်းများ ဖျက်မည်</button>
+      </div>
+    </div>
+
+    <!-- Screen 4: Active Chat View -->
+    <div id="screen-chat" class="screen">
+      <div class="chat-bg" id="chatBg"></div>
+      
+      <div class="chat-header">
+        <div class="chat-header-user">
+          <img src="" id="chatHeaderAvatar" alt="Avatar">
+          <span id="chatHeaderName">Mistress Naw</span>
+        </div>
+        <div class="chat-header-actions">
+          <div class="chat-header-divider"></div>
+          <button class="back-btn" onclick="closeChat()">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="messages-container" id="messagesContainer">
+        <!-- Messages များကို JS မှ ထည့်ပေးမည် -->
+      </div>
+
+      <div class="chat-input-wrapper">
+        <div class="chat-input-box">
+          <input type="text" id="messageInput" placeholder="Message" onkeydown="handleKeyPress(event)">
+          <button class="send-btn" onclick="sendMessage()">
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Navigation Bar -->
+    <div class="bottom-nav" id="bottomNav">
+      <div class="nav-item active" id="nav-home" onclick="switchTab('home')">
+        <i class="fa-solid fa-house"></i>
+      </div>
+      <div class="nav-item" id="nav-chatlist" onclick="switchTab('chatlist')">
+        <i class="fa-solid fa-comment-dots"></i>
+      </div>
+      <div class="nav-item" id="nav-settings" onclick="switchTab('settings')">
+        <i class="fa-solid fa-gear"></i>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
