@@ -24,33 +24,58 @@ const characters = [
         name: "Mistress Naw",
         defaultRole: "dom", // မူလက Dom
         description: "A confident and strict mistress for BDSM & Femdom.",
-        avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400",
-        background: "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=900"
+        avatar: "images/Naw.jpg",
+        background: "images/Naw.jpg"
     },
     {
-        id: "sakura",
-        name: "Sakura",
+        id: "May Myint Mo",
+        name: "May Myint Mo",
         defaultRole: "sub", // မူလက Sub / Slave (User က Dom လုပ်လို့ရသည်)
         description: "A sweet, submissive partner ready to obey your commands.",
-        avatar: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400",
-        background: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=900"
+        avatar: "images/May.jpg",
+        background: "images/May.jpg"
     },
     {
-        id: "alex",
-        name: "Alex",
-        defaultRole: "dom",
-        description: "A demanding master of dark fantasies.",
-        avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400",
-        background: "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=900"
-    },
-    {
-        id: "emma",
-        name: "Emma",
+        id: "Ei Chaw Po",
+        name: "Ei Chaw Po",
         defaultRole: "sub", // မူလက Sub / Sex Chat & Slave
         description: "Passionate, wild, and entirely devoted to your pleasure.",
-        avatar: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400",
-        background: "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=900"
+        avatar: "images/Ei.jpg",
+        background: "images/Ei.jpg"
     },
+    {
+        id: "Ya Mon Myint Myat",
+        name: "Ya Mon Myint Myat",
+        defaultRole: "sub", // မူလက Sub / Sex Chat & Slave
+        description: "Passionate, wild, and entirely devoted to your pleasure.",
+        avatar: "images/YaMon.jpg",
+        background: "images/YaMon.jpg"
+    },
+    {
+        id: "Hsaung Wutye May",
+        name: "Hsaung Wutye May",
+        defaultRole: "sub", // မူလက Sub / Sex Chat & Slave
+        description: "Passionate, wild, and entirely devoted to your pleasure.",
+        avatar: "images/Hsaung.jpg",
+        background: "images/Hsaung.jpg"
+    },
+    {
+        id: "Han Ti",
+        name: "Han Ti",
+        defaultRole: "sub", // မူလက Sub / Sex Chat & Slave
+        description: "Passionate, wild, and entirely devoted to your pleasure.",
+        avatar: "images/HanTi.jpg",
+        background: "images/HanTi.jpg"
+    },
+    {
+        id: "Thae Su Nyein",
+        name: "Thae Su Nyein",
+        defaultRole: "sub", // မူလက Sub / Sex Chat & Slave
+        description: "Passionate, wild, and entirely devoted to your pleasure.",
+        avatar: "images/Thae.jpg",
+        background: "images/Thae.jpg"
+    },
+        
 ];
 
 // =========================================
