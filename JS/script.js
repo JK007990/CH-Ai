@@ -50,30 +50,6 @@ const characters = [
         description: "Passionate, wild, and entirely devoted to your pleasure.",
         avatar: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400",
         background: "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=900"
-    }
-    {
-        id: "emma",
-        name: "Emma",
-        defaultRole: "sub", // မူလက Sub / Sex Chat & Slave
-        description: "Passionate, wild, and entirely devoted to your pleasure.",
-        avatar: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400",
-        background: "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=900"
-     },
-     {
-        id: "emma",
-        name: "Emma",
-        defaultRole: "sub", // မူလက Sub / Sex Chat & Slave
-        description: "Passionate, wild, and entirely devoted to your pleasure.",
-        avatar: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400",
-        background: "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=900"
-    },
-    {
-        id: "emma",
-        name: "Emma",
-        defaultRole: "sub", // မူလက Sub / Sex Chat & Slave
-        description: "Passionate, wild, and entirely devoted to your pleasure.",
-        avatar: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400",
-        background: "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=900"
     },
 ];
 
